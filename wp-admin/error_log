@@ -1,0 +1,26 @@
+[25-May-2022 15:21:19 UTC] Erro da base de dados do WordPress Unknown column 'vt_' in 'field list' para a consulta SELECT vt_
+[05-Aug-2022 15:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Utility/CaseInsensitiveDictionary.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response/Headers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:03:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:08:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:08:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:08:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:08:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[05-Aug-2022 15:08:33 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/adduppt/dev/villatheatro/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-includes/class-requests.php on line 146
+[26-Sep-2022 14:16:58 UTC] PHP Warning:  include(): Failed opening '/home/adduppt/dev/villatheatro/wp-content/plugins/one-click-demo-import/vendor/composer/../../inc/Logger.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adduppt/dev/villatheatro/wp-content/plugins/one-click-demo-import/vendor/composer/ClassLoader.php on line 444
+[26-Sep-2022 14:16:58 UTC] PHP Fatal error:  Uncaught Error: Class 'OCDI\Logger' not found in /home/adduppt/dev/villatheatro/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php:621
+Stack trace:
+#0 /home/adduppt/dev/villatheatro/wp-includes/class-wp-hook.php(307): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 /home/adduppt/dev/villatheatro/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/adduppt/dev/villatheatro/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/adduppt/dev/villatheatro/wp-settings.php(576): do_action('after_setup_the...')
+#4 /home/adduppt/dev/villatheatro/wp-config.php(97): require_once('/home/adduppt/d...')
+#5 /home/adduppt/dev/villatheatro/wp-load.php(50): require_once('/home/adduppt/d...')
+#6 /home/adduppt/dev/villatheatro/wp-admin/admin-ajax.php(22): require_once('/home/adduppt/d...')
+#7 {main}
+  thrown in /home/adduppt/dev/villatheatro/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 621
